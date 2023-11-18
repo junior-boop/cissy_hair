@@ -1,0 +1,25 @@
+.container {
+    margin: 0 auto;
+}
+
+@media (max-width : 512px){
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width : 756px){
+    .container {
+        width: 100vw;
+    }
+}
+
+@media (min-width : 1080px){
+    .container {
+        width: 70vmax;
+    }
+}
+@media (min-width : 1280px){
+    .container {
+        width: 1080px;
+    }
+}

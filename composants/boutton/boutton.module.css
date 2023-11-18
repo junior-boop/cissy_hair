@@ -1,0 +1,10 @@
+.button {
+    display: flex;
+    width: max-content;
+    padding: 12px 20px;
+    border-radius: var(--btn-border-radius);
+    background-color: #E52087;
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: calc(8px + 1vmin);
+}
